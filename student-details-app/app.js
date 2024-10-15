@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://govi:govi@cluster0.qmc6cnq.mongodb.net/studentDB?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mkngodb://', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
